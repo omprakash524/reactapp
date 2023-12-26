@@ -1,3 +1,5 @@
+import React from "react";
+
 function Intro1(){
     return(
         <div className="blog-post-intro">

@@ -11,6 +11,15 @@ import Btn  from './component/PropComponent/PropsChildren/Btn';
 import Exp  from './component/PropComponent/PropsChildren/expressionAsProps';
 import EventHandler  from './component/EventHandling';
 import ModeToggler from './component/UserEvents/ModeToggler';
+import Child from './component/DataAndEvents/Child';
+import Hooks from './Hooks/Hooks';
+import EmailHooks from './Hooks/EmailHook';
+import UseRef from './Hooks/UseRefHooks';
+import HeadingHook from './Hooks/HeadingHooks';
+import PropDrilling from './Hooks/PropDrilling';
+import StateManage from './Hooks/StateManagement/StateManage';
+
+
 
 
 function Header(){
@@ -56,6 +65,27 @@ function App() {
       <EventHandler/>
 
       <ModeToggler/>
+      <Child message={Date.toLocaleTimeString} />
+      <Hooks/>
+      <br></br>
+      <br></br>
+      <EmailHooks/>
+
+      <br></br>
+      <UseRef/>
+      <br></br>
+
+      <HeadingHook/>
+      <br></br>
+      <PropDrilling/>
+      <br></br>
+      <StateManage/>
+
+
+
+
+
+    <br></br>
     </div>
   );
 };
