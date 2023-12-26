@@ -7,7 +7,7 @@ function ModeToggler(){
 
     function HandleClick(){
         darkModeOn = !darkModeOn; 
-        if(darkModeOn == true){
+        if(darkModeOn === true){
             console.log("Dark mode is on");
         }else{
             console.log("Light mode is on");
@@ -19,10 +19,10 @@ function ModeToggler(){
     const lightmode1 = <h1>Light mode is on</h1>
     function HandleClick1(){
         darkModeOn1 = !darkModeOn1;
-        if(darkMode1==true){
+        if(darkMode1===true){
             console.log("darkMode1");
         }else{
-            console.log("lightmode1");
+            console.log(lightmode1);
         }
     }
 
@@ -65,6 +65,7 @@ function ModeToggler(){
         <br></br>
 
         <button onClick={AllFunction}>All function in one</button>
+
 
         <h2>A confident guy is much more better than a talented guy</h2>
 
