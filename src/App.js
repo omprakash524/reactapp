@@ -18,6 +18,7 @@ import UseRef from './Hooks/UseRefHooks';
 import HeadingHook from './Hooks/HeadingHooks';
 import PropDrilling from './Hooks/PropDrilling';
 import StateManage from './Hooks/StateManagement/StateManage';
+import MyApp from './Hooks/StateManagement/App';
 
 
 
@@ -80,6 +81,8 @@ function App() {
       <PropDrilling/>
       <br></br>
       <StateManage/>
+      <br></br>
+      <MyApp/>
 
 
 
