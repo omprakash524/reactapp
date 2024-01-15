@@ -5,8 +5,9 @@ import FruitsCounter from "./FruitsCounter";
 function MyApp(){
     const[fruits] = React.useState([
         {fruitName: 'apple',id:1},
-        {fruitName: 'apple',id:12},
+        {fruitName: 'banana',id:12},
         {fruitName: 'plum',id:13},
+        {fruitName: 'orange',id:13},
     ]);
 
     return (
